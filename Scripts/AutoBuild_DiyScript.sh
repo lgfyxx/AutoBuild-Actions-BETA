@@ -134,7 +134,7 @@ EOF
 	immortalwrt/immortalwrt*)
 		case "${TARGET_PROFILE}" in
 		x86_64)
-			AddPackage git passwall2-luci openwrt-passwall2 xiaorouji main
+			AddPackage git passwall-luci openwrt-passwall xiaorouji main
    			AddPackage git aliyun aliyundrive-webdav messense main
 		;;
 		esac
