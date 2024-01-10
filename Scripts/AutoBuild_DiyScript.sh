@@ -134,8 +134,8 @@ EOF
 	immortalwrt/immortalwrt*)
 		case "${TARGET_PROFILE}" in
 		x86_64)
-			AddPackage git passwall-luci openwrt-passwall xiaorouji main
-   			AddPackage git aliyun aliyundrive-webdav messense main
+			# AddPackage git passwall-luci openwrt-passwall xiaorouji main
+   			# AddPackage git aliyun aliyundrive-webdav messense main
 		;;
 		esac
 		# sed -i "s?/bin/login?/usr/libexec/login.sh?g" ${FEEDS_PKG}/ttyd/files/ttyd.config
