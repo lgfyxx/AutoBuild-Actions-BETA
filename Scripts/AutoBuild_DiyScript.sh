@@ -133,7 +133,7 @@ EOF
 	immortalwrt/immortalwrt*)
 		case "${TARGET_PROFILE}" in
 		x86_64)
-			AddPackage git passwall2-luci openwrt-passwall2 xiaorouji main
+			# AddPackage git passwall2-luci openwrt-passwall2 xiaorouji main
 		;;
 		esac
 		# sed -i "s?/bin/login?/usr/libexec/login.sh?g" ${FEEDS_PKG}/ttyd/files/ttyd.config
