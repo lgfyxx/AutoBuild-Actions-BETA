@@ -80,7 +80,7 @@ CONFIG_PACKAGE_luci-app-hd-idle=y
 CONFIG_PACKAGE_luci-app-netdata=y
 # CONFIG_PACKAGE_luci-app-nft-qos is not set
 # CONFIG_PACKAGE_luci-app-nfs is not set
-CONFIG_PACKAGE_luci-app-natter=y
+# CONFIG_PACKAGE_luci-app-natter is not set
 CONFIG_PACKAGE_luci-app-npc=y
 CONFIG_PACKAGE_luci-app-nlbwmon=y
 CONFIG_PACKAGE_luci-app-ntpc=y
